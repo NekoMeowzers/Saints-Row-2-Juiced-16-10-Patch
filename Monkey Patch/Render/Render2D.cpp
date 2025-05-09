@@ -388,7 +388,7 @@ char SR2Ultrawide_HUDScale() {
 	float aspectRatio = currentX / currentY;
 	Render3D::AspectRatioFix(true);
 
-	if (aspectRatio >= 1.77) {
+	if (aspectRatio >= 1.33) {
 #if !JLITE
 		if (GameConfig::GetValue("Graphics", "IVRadarScaling", 0)) {
 			IVRadarScaling = true;
